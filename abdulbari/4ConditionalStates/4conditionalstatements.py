@@ -10,6 +10,7 @@ else :
     print("invalid numbers ")
 """
 """
+
 #check for age Eligible for casting a vote 
 a=int(input("enter the age"))
 if a>=18:

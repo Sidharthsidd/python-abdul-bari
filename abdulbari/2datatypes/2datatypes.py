@@ -17,6 +17,7 @@ declarration and the initialization done symantaniouly
 
 a=10 
 print(a)
+
 #can be declare multiple variables at onces 
 name,price,weight='toothpaste',200,60
 print(name,price,weight)
