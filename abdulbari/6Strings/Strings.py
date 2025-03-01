@@ -219,7 +219,7 @@ else:
 #given string palindrome 
 print(palindrome +rev)
 """
-
+"""
 date=input()
 date1=date.split("/")
 day=date1[0]
@@ -230,3 +230,43 @@ year=date1[2]
 print(year,"year")
 
 
+"""
+
+"""
+# Challenge : Anagram String
+s1=input("enetert he first string")
+s2=input("entert he second string")
+
+
+if len(s1)==len(s2):
+    print("Anagram")
+else :
+    for x in s1:
+        if x in s2:
+            print("the string si anagram")
+        else :
+            print("not anagram")
+
+"""
+
+"""
+# Challenge : Rearranging Case
+str1=input("enter the string ")
+lower =''
+upper =''
+for x in str1:
+    if x.islower():
+        lower = lower + x
+    else:
+        upper = upper + x
+"""
+
+"""
+# Challenge : Removing Punctuations
+def remove_special_characters(s):
+    return ''.join(char for char in s if char.isalnum() or char.isspace())
+
+# Example usage
+text = "Hello!@# How's $%your day?"
+print(remove_special_characters(text))  # Output: "Hello Hows your day"
+"""

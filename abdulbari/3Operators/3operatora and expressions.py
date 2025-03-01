@@ -17,7 +17,7 @@ print(c)
 
 # area of a rectangle =>
 
-"""
+
 print("Options: \n1. Area of a Rectangle \n2. Triangle  \n3. Displacement ")
 o = input("Enter the option: ")
 result= (
@@ -29,8 +29,7 @@ result= (
 
 print(result)
 
-"""
-"""
+
 # challenge 2=>Kms to Miles
 
 k=int(input("enter the km value "))
@@ -78,4 +77,3 @@ try:
 except ValueError:
     print("Invalid input! Please enter integers only.")
 
-"""

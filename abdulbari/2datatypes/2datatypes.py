@@ -12,8 +12,8 @@ program contains the two things
 age=15   =>age is the variable annd the 15 is the data 
 in pyhton can store the value directly without assigning the declaration of datatype 
 declarration and the initialization done symantaniouly 
-
 """
+
 
 a=10 
 print(a)

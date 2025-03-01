@@ -1,5 +1,5 @@
 #conditional statements 
-"""
+
 # 1,Find  diffrence between 2 numbers 
 a=int(input("enetrt he value a "))
 b=int(input("enter the value b"))
@@ -8,8 +8,9 @@ if c>0:
     print(c)
 else :
     print("invalid numbers ")
-"""
-"""
+
+
+
 
 #check for age Eligible for casting a vote 
 a=int(input("enter the age"))
@@ -17,9 +18,9 @@ if a>=18:
     print("you are eligible for casting a vote ")
 else :
     print("you are not eligible for casting a vote ")
-"""
 
-"""
+
+
 # Nested if else conditional 
 john=float(input("enetr the age "))
 smith=float(input("enetr the age "))
@@ -31,9 +32,9 @@ elif smith>ajay:
     print("smith is eldest")
 else :
     print('ajay is eldest')
-"""
 
-"""
+
+
 amount=float(input("enter the bill amount"))
 if amount<=1000:
     discount=(amount*10)/100
@@ -46,8 +47,6 @@ else :
 total=amount-discount
 print(total)
 
-"""
-"""
 
 # Printing a leap year
 
@@ -64,5 +63,5 @@ if is_leap_year(year):
 else:
     print(f"{year} is not a leap year.")
 
-"""
+
 
