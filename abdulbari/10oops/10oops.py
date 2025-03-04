@@ -122,6 +122,54 @@ class cuboid(rectangle,test):
 
 r1=cuboid(2,3,3,4)
 print(r1.volume())
+
 # call the parent costructor by the via super function
 # Inheritance is a process where one class can inherit the properties of another class
+# Inner class 
+# createing the class inside the class 
+
+class customer:
+    def __init__(self,name,age,bno,bstreet,bcity,bcountry,dno,dstreet,dcity,dcountry):
+        self.name=name
+        self.age=age
+        self.baddr=self.address(bno,bstreet,bcity,bcountry)
+        self.sadr=self.address(dno,dstreet,dcity,dcountry)
+
+    class address:
+        def __init__(self,dno,street,city,country):
+            self.dno=dno
+            self.street=street
+            self.city=city
+            self.country=country
+
+        def display(self):
+            print(self.dno)
+            print(self.street)
+            print(self.city)
+            print(self.country)
+
+
+r1=customer(1,2,3,4,5,6,7,8,9,1)
+r1.baddr.display()
+r1.sadr.display()
+
+
+# Method overloading 
+# Method overloading is a feature that allows method with same name but different parameters to be defined in
+
+class Arith:
+    def sum(self,a,b,c=None):
+        s=a+b
+        if c is  None:
+            return s
+        else :
+            return s+c
+# same methood can be pass 3 arguments and two arguments also     
+
+a=Arith()
+print(a.sum(10,5))
+print(a.sum("helleo","world"))
+print(a.sum(1,2,3))
+
+
 
