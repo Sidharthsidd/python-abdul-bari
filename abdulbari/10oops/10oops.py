@@ -172,4 +172,14 @@ print(a.sum("helleo","world"))
 print(a.sum(1,2,3))
 
 
+class Person:
+    def __str__(self):
+        return "This is a Person"
 
+class Employee(Person):
+    def __str__(self):
+        return  super().__str__()+ "This is an Employee"
+        
+
+emp = Employee()
+print(emp)  
